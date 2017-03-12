@@ -1,0 +1,30 @@
+{
+    "name": "ricardo/surface",
+    "description": "Aspect Oriented Programming Library to PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Ledo de Tulio",
+            "email": "ledo.tulio@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr4": {
+            "Surface\\": "lib/Surface/"
+        }
+    },
+    "autoload-dev": {
+        "psr4": {
+            "Surface\\": "tests/Surface/"
+        }
+    },
+    "require": {
+        "psr/container": "^1.0",
+        "psr/cache": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}
